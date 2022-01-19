@@ -74,7 +74,7 @@ class App extends React.Component {
       return messageData[Object.keys(messageData)[0]].reason;
     } catch (e) {
       console.log(e);
-      return error;
+      return error.message;
     }
   }
 
